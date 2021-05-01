@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image:url("background.jpg") ;
+    background-size: cover;
+}
+canvas{
+    animation-name: Krisha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes Krisha{
+    from{
+        box-shadow: 3px 3px 50px darkorchid;
+    }
+    to{
+        box-shadow: 3px 3px 50px deepskyblue;
+    }
+}
